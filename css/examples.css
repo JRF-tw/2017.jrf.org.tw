@@ -19,11 +19,7 @@ address,caption,cite,code,dfn,em,strong,th,var {
     font-weight: normal;
     font-style: normal;
 }
-ol,ul {
-    list-style: none;
-    margin:0;
-    padding:0;
-}
+
 caption,th {
     text-align: left;
 
@@ -249,7 +245,7 @@ p{
 }
 #menu li a,
 #menu li.active a{
-	padding: 7px 14px;
+	padding: 5px 10px;
 	display:block;
 }
 #menu li.active a{
@@ -264,6 +260,12 @@ p{
 	width: 100%;
 	padding: 0;
 	margin:4px;
+}
+.gift {
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, .4);
+    border-radius: 5px;
+    padding: 30px;
 }
 
  /* icon */
@@ -320,4 +322,28 @@ p{
 		background: -webkit-linear-gradient(#1F3D55, #141F27);
 		background: linear-gradient(#1F3D55,#141F27);
 	}
-
+	#section5{
+		background: -webkit-gradient(linear, top left, bottom left, from(#141F27), to(#1F3D55));
+		background: -webkit-linear-gradient(#141F27, #1F3D55);
+		background: linear-gradient(#141F27,#1F3D55);
+	}
+	#section6{
+		background: -webkit-gradient(linear, top left, bottom left, from(#1F3D55), to(#625C73));
+		background: -webkit-linear-gradient(#1F3D55, #625C73);
+		background: linear-gradient(#1F3D55,#625C73);
+	}
+	#section7{
+		background: -webkit-gradient(linear, top left, bottom left, from(#625C73), to(#969ac6));
+		background: -webkit-linear-gradient(#625C73, #969AC6);
+		background: linear-gradient(#625C73,#969AC6);
+	}
+	#section8{
+		background: -webkit-gradient(linear, top left, bottom left, from(#969ac6), to(#7baabe));
+		background: -webkit-linear-gradient(#969AC6, #7BAABE);
+		background: linear-gradient(#969AC6,#7BAABE);
+	}
+	#section9{
+		background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#DBC81B));
+		background: -webkit-linear-gradient(#7BAABE, #DBC81B);
+		background: linear-gradient(#7BAABE,#DBC81B);
+	}
