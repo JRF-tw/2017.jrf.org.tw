@@ -174,17 +174,20 @@ p{
 	}
 	#mont{
 	position:fixed;
-	bottom: -160px;
-	left: -250px;
-	width: 800px;
+	bottom: -20px;
+	left: -100px;
+	width: 400px;
 	z-index: 1;
 	}
 	#bird{
 		position:fixed;
-		bottom: 18px;
-		left: 220px;
-		width: 80px;
+		bottom: 30px;
+		left: 200px;
+		width: 60px;
 		z-index: 1;
+	}
+	#stone{
+		display: none;
 	}
 	.fp-controlArrow.fp-next {
     border-width: 20px 0 20px 16px;
@@ -227,6 +230,9 @@ p{
 		left: 0px;
 		width: 80px;
 		z-index: 1;
+	}
+	#stone{
+		display: none;
 	}
 	.fp-controlArrow.fp-next {
     border-width: 20px 0 20px 16px;
@@ -278,6 +284,24 @@ p{
 	width: 100%;
 	padding: 0;
 	margin:4px;
+}
+#menu li ul {
+    display: none;
+}
+
+#menu li:hover ul {
+    display: block;
+}
+#menu li:hover{
+    background-color: #ba7947; 
+    color: #f9f59a; 
+}
+#menu li ul li{
+background-color: #f9f59a; 
+color: #9A5827;
+}
+#menu li ul li:hover a{
+    color: #9A5927;
 }
 .gift {
     background-color: rgba(255, 255, 255, .2);
