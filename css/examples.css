@@ -54,8 +54,8 @@ body{
 p{
 	font-weight: 300;
 }
-/* 大於iphone6 */
-@media screen and (min-width: 415px){
+/* 大於iphone6p */
+@media screen and (min-width: 414px){
 	p{
 	font-size: 1.2em;
 	text-align: justify;
@@ -147,7 +147,7 @@ p{
 	}
 }
 /* 小於iphone6p */
-@media screen and (min-width: 321px) and (max-width: 414px)
+@media screen and (min-width: 321px) and (max-width: 413px)
 {
 	h2{
 		font-size: 1.6em;
@@ -174,7 +174,7 @@ p{
 	}
 	#mont{
 	position:fixed;
-	bottom: -20px;
+	bottom: -35px;
 	left: -100px;
 	width: 400px;
 	z-index: 1;
