@@ -81,17 +81,25 @@ p{
 		margin-bottom:1em;
 		font-weight: 500;
 	}
+	
 	#mont{
 		position:fixed;
-		bottom: -20px;
+		bottom: -40px;
 		left: -270px;
 		width: 800px;
 		z-index: 1;
 	}
+	#bird{
+		position:fixed;
+		bottom: 120px;
+		left: 220px;
+		width: 80px;
+		z-index: 1;
+	}
 	#stone{
 		position:fixed;
-		bottom: 200px;
-		left: 160px;
+		bottom: 100px;
+		left: 280px;
 		z-index: 1;
 		/*
 		-webkit-animation-name: stone; 
@@ -171,6 +179,13 @@ p{
 	width: 800px;
 	z-index: 1;
 	}
+	#bird{
+		position:fixed;
+		bottom: 18px;
+		left: 220px;
+		width: 80px;
+		z-index: 1;
+	}
 	.fp-controlArrow.fp-next {
     border-width: 20px 0 20px 16px;
 	}
@@ -204,11 +219,14 @@ p{
 		text-align: justify;
 	}
 	#mont{
-	position:fixed;
-	bottom: -200px;
-	left: -250px;
-	width: 800px;
-	z-index: 1;
+	display: none;
+	}
+	#bird{
+		position:fixed;
+		bottom: 0px;
+		left: 0px;
+		width: 80px;
+		z-index: 1;
 	}
 	.fp-controlArrow.fp-next {
     border-width: 20px 0 20px 16px;
@@ -318,31 +336,17 @@ p{
 		background: linear-gradient(#625C73,#1F3D55);
 	}
 	#section4{
-		background: -webkit-gradient(linear, top left, bottom left, from(#1F3D55), to(#141F27));
-		background: -webkit-linear-gradient(#1F3D55, #141F27);
-		background: linear-gradient(#1F3D55,#141F27);
+		background: -webkit-gradient(linear, top left, bottom left, from(#1F3D55), to(#969AC6));
+		background: -webkit-linear-gradient(#1F3D55, #969AC6);
+		background: linear-gradient(#1F3D55,#969AC6);
 	}
+	
 	#section5{
-		background: -webkit-gradient(linear, top left, bottom left, from(#141F27), to(#1F3D55));
-		background: -webkit-linear-gradient(#141F27, #1F3D55);
-		background: linear-gradient(#141F27,#1F3D55);
-	}
-	#section6{
-		background: -webkit-gradient(linear, top left, bottom left, from(#1F3D55), to(#625C73));
-		background: -webkit-linear-gradient(#1F3D55, #625C73);
-		background: linear-gradient(#1F3D55,#625C73);
-	}
-	#section7{
-		background: -webkit-gradient(linear, top left, bottom left, from(#625C73), to(#969ac6));
-		background: -webkit-linear-gradient(#625C73, #969AC6);
-		background: linear-gradient(#625C73,#969AC6);
-	}
-	#section8{
 		background: -webkit-gradient(linear, top left, bottom left, from(#969ac6), to(#7baabe));
 		background: -webkit-linear-gradient(#969AC6, #7BAABE);
 		background: linear-gradient(#969AC6,#7BAABE);
 	}
-	#section9{
+	#section6{
 		background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#DBC81B));
 		background: -webkit-linear-gradient(#7BAABE, #DBC81B);
 		background: linear-gradient(#7BAABE,#DBC81B);
