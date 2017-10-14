@@ -285,24 +285,7 @@ p{
 	padding: 0;
 	margin:4px;
 }
-#menu li ul {
-    display: none;
-}
 
-#menu li:hover ul {
-    display: block;
-}
-#menu li:hover{
-    background-color: #ba7947; 
-    color: #f9f59a; 
-}
-#menu li ul li{
-background-color: #f9f59a; 
-color: #9A5827;
-}
-#menu li ul li:hover a{
-    color: #9A5927;
-}
 .gift {
     background-color: rgba(255, 255, 255, .2);
     box-shadow: 3px 3px 3px rgba(255, 255, 255, .4);
