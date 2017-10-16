@@ -55,7 +55,7 @@ p{
 	font-weight: 300;
 }
 /* 大於iphone6p */
-@media screen and (min-width: 414px){
+@media screen and (min-width: 415px){
 	p{
 	font-size: 1.2em;
 	text-align: justify;
@@ -73,6 +73,7 @@ p{
 		font-size: 1.8em;
 		color: #fff;
 		margin-bottom:1em;
+		margin-top:1em;
 		font-weight: 500;
 	}
 	h4{
@@ -147,7 +148,7 @@ p{
 	}
 }
 /* 小於iphone6p */
-@media screen and (min-width: 321px) and (max-width: 413px)
+@media screen and (min-width: 321px) and (max-width: 414px)
 {
 	h2{
 		font-size: 1.6em;
