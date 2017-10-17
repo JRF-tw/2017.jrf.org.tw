@@ -25,7 +25,7 @@ caption,th {
 
 }
 h1,h2,h3,h4,h5,h6 {
-    font-weight: normal;
+    font-weight: bold;
     font-size: 100%;
     margin:0;
     padding:0;
@@ -65,7 +65,7 @@ p{
 		font-size: 2.4em;
 		color: #fff;
 		margin-bottom:1em;
-		font-weight: 500;
+		font-weight: bolder;
 		text-align: center;
 		border: #fff 1px;
 	}
@@ -74,13 +74,13 @@ p{
 		color: #fff;
 		margin-bottom:1em;
 		margin-top:1em;
-		font-weight: 500;
+		font-weight: bold;
 	}
 	h4{
 		font-size: 1.4em;
 		color: #fff;
 		margin-bottom:1em;
-		font-weight: 500;
+		font-weight: bold;
 	}
 	
 	#mont{
@@ -153,20 +153,20 @@ p{
 	h2{
 		font-size: 1.6em;
 		color: #fff;
-		font-weight: 500;
+		font-weight: bold;
 		text-align: center;
 		margin-bottom: 0.8em;
 	}
 	h3{
 		font-size: 1.4em;
 		color: #fff;
-		font-weight: 500;
+		font-weight: bold;
 		margin-bottom: 0.5em;
 	}
 	h4{
 		font-size: 1.2em;
 		color: #fff;
-		font-weight: 500;
+		font-weight: bold;
 		margin-bottom: 0.5em;
 	}
 	p{
@@ -363,7 +363,7 @@ p{
 		background: linear-gradient(#969AC6,#7BAABE);
 	}
 	#section6{
-		background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#DBC81B));
-		background: -webkit-linear-gradient(#7BAABE, #DBC81B);
-		background: linear-gradient(#7BAABE,#DBC81B);
+		background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#E49641));
+		background: -webkit-linear-gradient(#7BAABE, #E49641);
+		background: linear-gradient(#7BAABE,#E49641);
 	}
